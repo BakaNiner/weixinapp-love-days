@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+      <image src='./1.png' mode='aspectFit'></image>
+  </view>
+  <view class="msg">
+    <text>{{prefix}}\n</text>
+    <text>{{timing}}</text>
+  </view>
+</view>
