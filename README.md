@@ -8,16 +8,20 @@
 
 ## 界面
 
-主界面信息在weixinapp-love-days/pages/index/index.wxml文件中，默认显示一张图片和时间信息。
+主界面信息在code/pages/index/index.wxml文件中，默认显示一张图片和时间信息。
 
-图片为weixinapp-love-days/pages/index/1.png，可以自行替换。
+图片为code/pages/index/1.png，可以自行替换。
 
 ## 起始日期修改
 
-这部分代码在weixinapp-love-days/pages/index/index.js文件中，将
+这部分代码在code/pages/index/index.js文件中，将这一句
 
 ```javascript
 var startDate = new Date('Jan 1 2018 00:00:00');
 ```
 
 Date括号里的部分改为你想要的起始日期即可。
+
+## 效果图
+
+![](./效果图.png)
